@@ -6,10 +6,11 @@ This project demonstrates how smart contracts can deploy, manage, and interact w
 
 The StorageFactory contract is capable of:
 
-Deploying multiple SimpleStorage contracts
-Storing their addresses in an array
-Interacting with each deployed contract (store & retrieve values)
+- Deploying multiple SimpleStorage contracts
+- Storing their addresses in an array
+- Interacting with each deployed contract (store & retrieve values)
 🧠 Key Concepts
+
 🔹 Contract Deployment
 
 Use the new keyword to deploy contracts from another contract:
