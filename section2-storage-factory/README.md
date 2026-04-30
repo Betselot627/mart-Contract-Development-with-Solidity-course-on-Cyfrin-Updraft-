@@ -16,22 +16,26 @@ The StorageFactory contract is capable of:
 Use the new keyword to deploy contracts from another contract:
 
 SimpleStorage simpleStorage = new SimpleStorage();
+
 🔹 Managing Multiple Contracts
 
 Track deployed contracts using a dynamic array:
 
 SimpleStorage[] public listOfSimpleStorageContracts;
+
 🔹 Interacting with Contracts
 
 Call functions on deployed contracts via index:
 
 listOfSimpleStorageContracts[_index].store(_value);
 listOfSimpleStorageContracts[_index].retrieve();
+
 🔹 Imports
 
 Reuse code across files using named imports:
 
 import { SimpleStorage } from "./SimpleStorage.sol";
+
 🔹 Composability
 
 Smart contracts can seamlessly interact with each other — a core concept in blockchain and DeFi.
