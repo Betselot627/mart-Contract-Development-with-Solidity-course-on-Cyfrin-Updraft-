@@ -45,11 +45,18 @@ Smart contracts can seamlessly interact with each other — a core concept in bl
 Extend and modify functionality:
 
 contract AddFiveStorage is SimpleStorage {
+
     function store(uint256 _num) public override {
+    
         favoriteNumber = _num + 5;
+    
     }
 }
+
 📁 Contracts
+
 SimpleStorage.sol – Basic storage contract
+
 AddFiveStorage.sol – Inherits and modifies behavior
+
 StorageFactory.sol – Deploys and interacts with contracts
